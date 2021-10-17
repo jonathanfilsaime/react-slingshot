@@ -29,7 +29,7 @@ jobs:
       - checkout
       - run:
           name: "test"
-          command: sudo apt install npm && npm install && npm run test
+          command: sudo apt install npm && npm --version
 
   analyze:
     # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
